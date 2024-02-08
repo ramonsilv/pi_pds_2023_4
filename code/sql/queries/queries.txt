@@ -1,0 +1,1 @@
+Aqui ficarão os scripts SQL das Consultas (Queries) e Visualizações (Views).
