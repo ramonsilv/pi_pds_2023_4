@@ -1,13 +1,12 @@
-INSERT INTO turmas (id_turma, turno, data_inicio, data_fim, horas_aula_dia, fk_curso)
+INSERT INTO turmas (id_turma, polo_educacional, turno, presencial, data_inicio, data_fim, horas_aula_dia, fk_curso)
 VALUES
-  ('1', 'Manhã', '2024-02-05', '2024-05-05', 4, 'CursoA'),
-  ('2', 'Tarde', '2024-02-10', '2024-05-10', 3, 'CursoB'),
-  ('3', 'Noite', '2024-03-01', '2024-06-01', 5, 'CursoC'),
-  ('4', 'Manhã', '2024-03-15', '2024-06-15', 4, 'CursoA'),
-  ('5', 'Tarde', '2024-04-02', '2024-07-02', 3, 'CursoB'),
-  ('6', 'Noite', '2024-04-20', '2024-07-20', 5, 'CursoC'),
-  ('7', 'Manhã', '2024-05-05', '2024-08-05', 4, 'CursoA'),
-  ('8', 'Tarde', '2024-05-20', '2024-08-20', 3, 'CursoB'),
-  ('9', 'Noite', '2024-06-01', '2024-09-01', 5, 'CursoC'),
-  ('10', 'Manhã', '2024-06-15', '2024-09-15', 4, 'CursoA');
-  
+    ('t-01', 'CEP Cora', 'Matutino', true, '2024-02-05', '2024-03-15', 4, 'c-04'),
+    ('t-02', 'CEP Cora', 'Matutino', false, '2023-11-03', '2024-01-22', 4, 'c-03'),
+    ('t-03', 'CEP Cora', 'Noturno', true, '2022-06-05', '2024-06-04', 3, 'c-05'),
+    ('t-04', 'CEP Cora', 'Vespertino', true, '2023-08-10', '2023-12-20', 5, 'c-01'),
+    ('t-05', 'CEP Cora', 'Noturno', false, '2022-09-15', '2023-06-30', 3, 'c-02'),
+    ('t-06', 'CEP Cora', 'Matutino', true, '2023-02-20', '2023-11-30', 4, 'c-03'),
+    ('t-07', 'CEP Cora', 'Vespertino', false, '2022-05-01', '2023-03-15', 5, 'c-01'),
+    ('t-08', 'CEP Cora', 'Noturno', true, '2023-12-05', '2024-09-30', 3, 'c-04'),
+    ('t-09', 'CEP Cora', 'Matutino', false, '2022-08-08', '2023-04-25', 4, 'c-02'),
+    ('t-10', 'CEP Cora', 'Vespertino', true, '2024-01-10', '2024-07-01', 5, 'c-05');
