@@ -1,1 +1,0 @@
-Aqui ficarão os scripts SQL de População (Insert) das tabelas.
