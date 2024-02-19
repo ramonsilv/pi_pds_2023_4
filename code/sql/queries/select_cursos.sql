@@ -1,3 +1,9 @@
+ select  descricao_curso,carga_horaria_curso, modalidade,eixo from  cursos order by descricao_curso;
+ select  descricao_curso,modalidade from cursos where modalidade like 'tecnologia%'
+ 
+ select  modalidade,carga_horaria_curso from cursos where modalidade like 'tecnologia%' and carga_horaria_curso > 900
+
+ select descricao_curso,modalidade from cursos where modalidade  not like 'tecnologia%'
 
 
 /*Cursos:
@@ -33,7 +39,7 @@ SELECT modalidade, AVG(carga_horaria_curso) AS media
 FROM cursos
 GROUP BY modalidade
 ORDER BY media;
-=======
+
 --a) Mostrar todos os cursos em ordem alfabética pela descrição, sem a coluna ID
 
 SELECT descricao_curso, carga_horaria_curso, modalidade, eixo
@@ -68,4 +74,3 @@ SELECT descricao_curso, carga_horaria_curso, modalidade, eixo
 FROM cursos
 WHERE eixo != 'Tecnologia da Informação'
 ORDER BY descricao_curso;
-
