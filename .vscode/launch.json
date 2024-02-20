@@ -1,0 +1,17 @@
+// Copie e cole este arquivo na subpasta .vscode, dentro da pasta raíz do projeto
+// root -> .vscode -> launch.json
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Program",
+            "program": "${file}",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node",
+            "console": "integratedTerminal"
+        }
+    ]
+}
