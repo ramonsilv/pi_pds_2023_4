@@ -1,1 +1,0 @@
-Aqui ficarão os scripts SQL de Criação (Create, ALter e Drop) dos bancos de dados, tabelas.
