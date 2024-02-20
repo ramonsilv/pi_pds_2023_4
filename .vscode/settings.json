@@ -1,0 +1,17 @@
+{
+   // Formatar arquivo ao salvar
+   "editor.formatOnSave": true,
+   // Aplicar ações ao salvar arquivo
+   // "editor.codeActionsOnSave": {
+   //    "source.fixAll": true,
+   //    "source.organizeImports": true
+   // },
+   // Quebra de linha (escrita não ultrapassar o tamanho da tela)
+   "editor.wordWrap": "on",
+   // Padronização de código: aspas duplas
+   "javascript.preferences.quoteStyle": "double",
+   // Padronização de código: remover ponto e vírgula
+   "javascript.format.semicolons": "remove",
+   // Mostrar o tipo das variáveis na atribuição
+   "javascript.inlayHints.variableTypes.enabled": true,
+}
