@@ -24,13 +24,13 @@ INSERT INTO suspensoes VALUES
 ('1', 'Feriado Nacional - Carnaval', '2024-02-10', 'Integral', true),
 ('2', 'Feriado Nacional - Finados', '2024-11-02', 'Noturno', false),
 ('3', 'Feriado Nacional - Páscoa', '2024-03-31', 'Noturno', true),
-('4', 'Data Comemorativa - Dia do indio', '2024-04-19', 'Matutino', false),
+('4', 'Data Comemorativa - Dia dos Povos Originários', '2024-04-19', 'Matutino', false),
 ('5', 'Feriado Nacional - Independência', '2024-09-07', 'Integral', true),
 ('6', 'Feriado Nacional - Dia de Reis', '2024-01-06', 'Vespertino', false),
 ('7', 'Feriado Nacional - Proclamação da República', '2024-11-15', 'Integral', true),
 ('8', 'Feriado Nacional - Dia do trabalho', '2024-05-01', 'Integral', true),
 ('9', 'Feriado Nacional - Tiradentes', '2024-04-21', 'Vespertino', true),
-('10', 'Data Comemorativa - dia da mentira', '2024-04-01', 'Matutino', false),
+('10', 'Data Comemorativa - Dia da Mentira', '2024-04-01', 'Matutino', false),
 ('11', 'Atestado Médico Instrutor', '2024-02-10', 'Integral', true);
 
 INSERT INTO salas VALUES
@@ -58,7 +58,7 @@ INSERT INTO salas VALUES
 INSERT INTO instrutores VALUES 
 ('1', '1234', 'Fabiana'),
 ('2', '5678', 'Danielle'),
-('3', '9012', 'José Carlos '),
+('3', '9012', 'José Carlos'),
 ('4', '8562', 'Taynan'),
 ('5', '7980', 'Ludmilla'),
 ('6', '4156', 'Camila'),
