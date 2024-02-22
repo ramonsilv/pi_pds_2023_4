@@ -74,14 +74,35 @@ GROUP BY
     a.status_aula;
 
 
--- INSERT INTO instrutores_competencias VALUES 
--- ('1', '1'),
--- ('2', '2'),
--- ('3', '2'),
--- ('4', '4'),
--- ('5', '5'),
--- ('6', '6'),
--- ('7', '6'),
--- ('8', '8'),
--- ('9', '9'),
--- ('10', '10');
+INSERT INTO instrutores_competencias VALUES 
+('1', '1'),
+('2', '2'),
+('2', '5'),
+('2', '6'),
+('3', '4'),
+('3', '5'),
+('3', '9'),
+('4', '1'),
+('4', '2'),
+('5', '10'),
+('6', '3'),
+('6', '2'),
+('7', '5'),
+('7', '4'),
+('8', '7'),
+('8', '8'),
+('8', '9'),
+('9', '8'),
+('9', '7'),
+('10', '8'),
+('10', '9');
+
+SELECT
+    i.nome_completo AS "nome do instrutor",
+    COUNT(ic.id_competencia) AS "total de competências"
+FROM
+    instrutores i
+LEFT JOIN
+    instrutores_competencias ic ON i.id_instrutor = ic.id_instrutor
+GROUP BY
+    i.nome_completo;
