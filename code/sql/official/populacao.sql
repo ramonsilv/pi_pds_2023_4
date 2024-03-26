@@ -133,7 +133,15 @@ INSERT INTO turmas VALUES
 -- ('7', '2024-03-02', 'Suspensa', '1', '1', '1'),
 -- ('8', '2024-03-05', 'Prevista', '1', '1', '1'),
 -- ('9', '2024-03-08', 'Ministrada', '1', '1', '1'),
--- ('10', '2024-02-29', 'Ministrada', '1', '1', '1');
+-- ('10', '2024-02-29', 'Ministrada', '1', '1', '1'),
+-- 
+
+
+selct
+-- INSERT INTO aulas_suspensoes VALUES 
+-- ('')
+
+
 
 -- INSERT INTO instrutores_competencias VALUES 
 -- ('1', '1'),
